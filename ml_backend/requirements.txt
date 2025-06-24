@@ -1,0 +1,9 @@
+tensorflow
+keras
+numpy
+scipy
+Flask
+Flask-Cors
+Werkzeug
+joblib
+gunicorn
