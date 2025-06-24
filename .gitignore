@@ -1,0 +1,6 @@
+node_modules
+ml_training
+dataset
+.env
+.venv
+github_assets
