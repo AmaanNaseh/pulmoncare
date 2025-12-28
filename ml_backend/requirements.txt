@@ -2,6 +2,7 @@ tensorflow
 keras
 numpy
 scipy
+scikit-learn
 Flask
 Flask-Cors
 Werkzeug

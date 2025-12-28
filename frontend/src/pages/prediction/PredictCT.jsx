@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useState } from "react";
-import { ml_backend_url } from "../config/Config";
+import { ml_backend_url } from "../../config/Config";
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 

@@ -1,13 +1,13 @@
 import axios from "axios";
 import React, { useState } from "react";
-import { ml_backend_url } from "../config/Config";
+import { ml_backend_url } from "../../config/Config";
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 
-const PredictHP = () => {
+const PredictMRI = () => {
   const [prediction, setPrediction] = useState("Prediction");
   const [image, setImage] = useState("");
-  const [displayImage, setDisplayImage] = useState("/HP_Healthy.jpeg");
+  const [displayImage, setDisplayImage] = useState("/MRI_Healthy.png");
   const [isLoaderVisible, setIsLoaderVisible] = useState(false);
 
   const handlePost = async () => {
@@ -23,7 +23,10 @@ const PredictHP = () => {
     formData.append("file", image);
 
     try {
-      const result = await axios.post(`${ml_backend_url}/predict/hp`, formData);
+      const result = await axios.post(
+        `${ml_backend_url}/predict/mri`,
+        formData
+      );
       setPrediction(result.data);
       setIsLoaderVisible(false);
     } catch (err) {
@@ -35,7 +38,7 @@ const PredictHP = () => {
   return (
     <>
       <h1 className="text-2xl font-bold italic text-center mx-auto mb-10">
-        PATHOLOGICAL ANALYSIS
+        MRI SCAN ANALYSIS
       </h1>
 
       <p className="text-justify my-8 bg-red-700 font-semibold p-2 max-w-[90%] lg:max-w-[75%] mx-auto">
@@ -59,10 +62,10 @@ const PredictHP = () => {
             src={displayImage}
             alt="..."
             className={`w-full h-full ${
-              displayImage === "/HP_Healthy.jpeg" ? "opacity-75" : ""
+              displayImage === "/MRI_Healthy.png" ? "opacity-75" : ""
             }`}
           />
-          {displayImage === "/HP_Healthy.jpeg" ? (
+          {displayImage === "/MRI_Healthy.png" ? (
             <p className="bg-red-700 p-2 font-bold absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
               EXAMPLE IMAGE
             </p>
@@ -72,7 +75,7 @@ const PredictHP = () => {
         </div>
 
         <div className="flex flex-col gap-2 items-center justify-center">
-          <label>Upload Pathological Scan</label>
+          <label>Upload MRI Scan</label>
           <input
             type="file"
             onChange={(e) => {
@@ -118,8 +121,8 @@ const PredictHP = () => {
           <h1 className="font-bold mx-auto text-lg lg:text-xl">
             AI Model Metrics
           </h1>
-          <p className="font-semibold">Val Accuracy: 99.5672345161438</p>
-          <p className="font-semibold">Val loss: 0.013990799896419048</p>
+          <p className="font-semibold">Val Accuracy: 96.4483916759491</p>
+          <p className="font-semibold">Val loss: 0.11847895383834839</p>
           <Link to={"/metrics"} className="mx-auto">
             <p className="font-bold hover:text-blue-500 border-b-[2px] border-white hover:scale-110 hover:border-b-blue-500 transition-all duration-100">
               More Details
@@ -133,4 +136,4 @@ const PredictHP = () => {
   );
 };
 
-export default PredictHP;
+export default PredictMRI;
