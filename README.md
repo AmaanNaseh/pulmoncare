@@ -4,6 +4,10 @@ Pulmoncare is a modern website for diagnosing lungs cancer at an early stage thr
 
 <br />
 
+## Live Website
+
+<a href="https://pulmoncare.vercel.app" target="_blank" >pulmoncare.vercel.app</a>
+
 ## TECHSTACK
 
 ![Image](https://github.com/user-attachments/assets/322cbfe2-d3a5-4796-8d02-e567b0ebf9a9)
@@ -32,7 +36,7 @@ Pulmoncare is a modern website for diagnosing lungs cancer at an early stage thr
 
 <br />
 
-## 🔗 PROJECT PREVIEW
+## PROJECT PREVIEW
 
 ![Image](https://github.com/user-attachments/assets/65f16316-98e1-43c2-99c6-20c7fc01490b)
 
