@@ -2,17 +2,25 @@
 
 Pulmoncare is a modern website for diagnosing lungs cancer at an early stage through artificial intelligence. Since diagnosis is a time-consuming task for starting the medication, so doctors as well as patients can gain some insights regarding their condition from our website by using their medical imaging reports such as CT Scans, MRI Scans and Pathological Scans or going through a questionnaire. Pulmoncare also suggests some exercises for enhancing the condition of user's lungs as well as a virtual assistant is available 24/7 for user's support. We have displayed metrics of our software architecture for transparency as well as we have specified terms of service for legal usage of this website.
 
-<br />
+---
 
 ## Live Website
 
 <a href="https://pulmoncare.vercel.app" target="_blank" >pulmoncare.vercel.app</a>
 
+---
+
+## Research Work
+
+We have published research paper on the machine learning based approach of this project. For more details, check <a href="https://www.ijsred.com/volume9/issue2/paper-details/IJSRED-V9I2P9.html">IJSRED-V9I2P9</a>
+
+---
+
 ## TECHSTACK
 
 ![Image](https://github.com/user-attachments/assets/322cbfe2-d3a5-4796-8d02-e567b0ebf9a9)
 
-<br />
+---
 
 ## DEVELOPERS
 
@@ -21,9 +29,9 @@ Pulmoncare is a modern website for diagnosing lungs cancer at an early stage thr
 - <a href="https://www.linkedin.com/in/ziyan-malik-150822209/" >Zian Malik</a>
 - <a href="https://www.linkedin.com/in/mohammad-rashid-357a02248/" >Mohammad Rashid</a>
 
-<br />
+---
 
-## 🔗 FEATURES
+## FEATURES
 
 - Lung cancer diagnosis through CT Scans
 - Lung cancer diagnosis through MRI Scans
@@ -34,7 +42,7 @@ Pulmoncare is a modern website for diagnosing lungs cancer at an early stage thr
 - Yoga Asanas suggestions
 - Transparency of software architecture
 
-<br />
+---
 
 ## PROJECT PREVIEW
 

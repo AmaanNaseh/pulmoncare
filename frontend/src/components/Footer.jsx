@@ -15,7 +15,7 @@ const Footer = () => {
             Developers
           </p>
         </Link>
-        <Link to={"/review-paper"}>
+        <Link to={"/research-paper"}>
           <p className="hover:scale-110 hover:border-b-[2px] hover:border-white transition-all duration-100 font-semibold">
             Research Work
           </p>

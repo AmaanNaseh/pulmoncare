@@ -13,7 +13,7 @@ import HoldBreath from "./pages/HoldBreath";
 import PursedLipBreathing from "./pages/PursedLipBreathing";
 import YogaAsans from "./pages/YogaAsans";
 import Developers from "./pages/Developers";
-import ReviewPaper from "./pages/ReviewPaper";
+import ResearchPaper from "./pages/ResearchPaper";
 import TermsOfService from "./pages/TermsOfService";
 import Metrics from "./pages/Metrics";
 import Contact from "./pages/Contact";
@@ -27,7 +27,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/attributions" element={<Attributions />} />
           <Route path="/developers" element={<Developers />} />
-          <Route path="/review-paper" element={<ReviewPaper />} />
+          <Route path="/research-paper" element={<ResearchPaper />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="/metrics" element={<Metrics />} />
           <Route path="/contact" element={<Contact />} />
