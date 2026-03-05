@@ -12,7 +12,7 @@ Pulmoncare is a modern website for diagnosing lungs cancer at an early stage thr
 
 ## Research Work
 
-We have published research paper on the machine learning based approach of this project. For more details, check <a href="https://www.ijsred.com/volume9/issue2/paper-details/IJSRED-V9I2P9.html">IJSRED-V9I2P9</a>
+We have published research paper on the machine learning based approach of this project. For more details, check IJSRED Journal.<a href="https://doi.org/10.5281/zenodo.18871983">DOI: doi.org/10.5281/zenodo.18871983</a>
 
 ---
 

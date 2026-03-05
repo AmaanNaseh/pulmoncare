@@ -17,14 +17,14 @@ const ResearchPaper = () => {
         </div>
 
         <p className="font-semibold">
-          Publication URL:
+          Publication DOI:
           <a
-            href="https://www.ijsred.com/volume9/issue2/paper-details/IJSRED-V9I2P9.html"
+            href="https://doi.org/10.5281/zenodo.18871983"
             target="_blank"
             rel="noreferrer"
             className="ml-2 border-b-[2px] border-white hover:text-blue-500 hover:border-blue-500"
           >
-            IJSRED-V9I2P9
+            10.5281/zenodo.18871983
           </a>
         </p>
       </div>
